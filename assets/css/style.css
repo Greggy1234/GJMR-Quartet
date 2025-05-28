@@ -1,7 +1,23 @@
-body {
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+/* Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Courgette&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Quattrocento+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Quattrocento:wght@400;700&display=swap');
+
+/* CSS Variables */
+:root {
+    --primary-font: "Playfair Display", Serif; 
+    --secondary-font: "Quattrocento Sans", sans-serif;
 }
 
-p{
-    font-weight:bold;
+/* Font styles for site */
+h1, h2, h3, h4, h5, h6 {
+    font-family: var(--primary-font);
+    font-style: italic;
 }
+
+p {
+    font-family: var(--secondary-font-1);
+}
+
+
+
+
+
