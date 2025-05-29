@@ -6,9 +6,15 @@
     --primary-font: "Playfair Display", Serif; 
     --secondary-font: "Quattrocento Sans", sans-serif;
     --primary-text-color: #585a47;
+    /* Dark green */
     --primary-background-color: #eedada;
+    /* light pink */
     --highlight:#83757e;
+    /* Dark purple */
     --light-highlight: #bdafc3;
+    /* Light purple */
+    --second-light-highlight: #939883;
+    /* Light green */
 }
 
 /* Font styles for site */
@@ -27,12 +33,46 @@ h1, h2, h3, h4, h5, h6 {
 /* Nav Bar */
 .navbar {
     background-color: var(--highlight);
-    color:white;
 }
 
 .navbar-brand {
     font-family: var(--primary-font);
     font-style: italic;
+}
+
+.navbar .dropdown-menu {
+    background-color: var(--highlight);
+    padding-top:0;
+    padding-bottom:0;
+    border-color: transparent;
+}
+
+.navbar .dropdown-item:hover {
+    background-color: var(--light-highlight);
+    color:var(--primary-text-color);
+    border-radius:0.37rem;
+}
+
+.nav-button-container {
+    align-self: center;
+}
+
+.nav-button {
+    border: 2px solid var(--second-light-highlight);
+    padding:5px 8px 6px;
+    border-radius: 0.3rem;
+    text-decoration: none;
+    color:white;
+    background-color: var(--second-light-highlight);
+}
+
+.nav-button:hover {
+    border: 2px solid var(--light-highlight);
+    padding:5px 8px 6px;
+    border-radius: 0.3rem;
+    text-decoration: none;
+    color:var(--primary-text-color);
+    background-color: var(--light-highlight);
 }
 
 
