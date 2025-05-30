@@ -3,13 +3,13 @@
 
 /* CSS Variables */
 :root {
-    --primary-font: "Playfair Display", Serif; 
-    --secondary-font: "Quattrocento Sans", sans-serif;
+    --primary-font: "Playfair Display", Serif;
+    --secondary-font: "Quattrocento", Serif;
     --primary-text-color: #585a47;
     /* Dark green */
     --primary-background-color: #eedada;
     /* light pink */
-    --highlight:#83757e;
+    --highlight: #83757e;
     /* Dark purple */
     --light-highlight: #bdafc3;
     /* Light purple */
@@ -17,65 +17,80 @@
     /* Light green */
 }
 
-/* Font styles for site */
+/* Global Styles */
 body {
-    font-family: var(--secondary-font-1);
+    font-family: var(--secondary-font);
     background-color: var(--primary-background-color);
     color: var(--primary-text-color);
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
     font-family: var(--primary-font);
     font-style: italic;
     color: var(--primary-text-color);
 }
 
-/* Nav Bar */
-.navbar {
+.text-upper {
+    text-transform: uppercase;
+}
+
+.sub-header-font-size {
+    font-size: 2rem;
+}
+
+/* Button Styles*/
+.primary-button {
+    border: 2px solid var(--second-light-highlight);
+    padding: 5px 8px 6px;
+    border-radius: 0.3rem;
+    text-decoration: none;
+    color: white;
+    background-color: var(--second-light-highlight);
+}
+
+.primary-button:hover {
+    border: 2px solid var(--light-highlight);
+    padding: 5px 8px 6px;
+    border-radius: 0.3rem;
+    text-decoration: none;
+    color: var(--primary-text-color);
+    background-color: var(--light-highlight);
+}
+
+/* Nav Bar Styles */
+#navbar {
     background-color: var(--highlight);
 }
 
-.navbar-brand {
+#navbar .navbar-brand {
     font-family: var(--primary-font);
     font-style: italic;
 }
 
-.navbar .dropdown-menu {
+#navbar .dropdown-menu {
     background-color: var(--highlight);
-    padding-top:0;
-    padding-bottom:0;
+    padding-top: 0;
+    padding-bottom: 0;
     border-color: transparent;
 }
 
-.navbar .dropdown-item:hover {
+#navbar .dropdown-item:hover {
     background-color: var(--light-highlight);
-    color:var(--primary-text-color);
-    border-radius:0.37rem;
+    color: var(--primary-text-color);
+    border-radius: 0.37rem;
 }
 
-.nav-button-container {
+#navbar .nav-button-container {
     align-self: center;
 }
 
-.nav-button {
-    border: 2px solid var(--second-light-highlight);
-    padding:5px 8px 6px;
-    border-radius: 0.3rem;
-    text-decoration: none;
-    color:white;
-    background-color: var(--second-light-highlight);
+/* Header Styles */
+
+#header .primary-button {
+    font-size: 1.2rem;
 }
-
-.nav-button:hover {
-    border: 2px solid var(--light-highlight);
-    padding:5px 8px 6px;
-    border-radius: 0.3rem;
-    text-decoration: none;
-    color:var(--primary-text-color);
-    background-color: var(--light-highlight);
-}
-
-
-
-
-
