@@ -20,8 +20,8 @@
 /* Global Styles */
 
 .test-layout {
-    border:2px solid black;
-    width:100%;
+    border: 2px solid black;
+    width: 100%;
     background-color: aqua;
     height: 25vh;
 }
@@ -51,10 +51,14 @@ h6 {
     font-size: 2rem;
 }
 
+.bold-text {
+    font-weight: bold;
+}
+
 /* Button Styles*/
 .primary-button {
     border: 2px solid var(--second-light-highlight);
-    padding: 5px 8px 6px;
+    padding: 6px 8px;
     border-radius: 0.3rem;
     text-decoration: none;
     color: white;
@@ -63,7 +67,7 @@ h6 {
 
 .primary-button:hover {
     border: 2px solid var(--light-highlight);
-    padding: 5px 8px 6px;
+    padding: 6px 8px;
     border-radius: 0.3rem;
     text-decoration: none;
     color: var(--primary-text-color);
@@ -99,7 +103,7 @@ h6 {
 
 /* Header Styles */
 #header {
-    margin-bottom:1.5rem;
+    margin-bottom: 1.5rem;
 }
 
 #header .primary-button {
@@ -107,21 +111,44 @@ h6 {
 }
 
 /* Services Styles */
-.all-services-boxes {
-    display:flex;
-    width:100%;
+#services {
+    margin-bottom: 1.5rem;
+}
+
+.services-grid {
+    display: flex;
+    width: 100%;
     flex-wrap: wrap;
 }
 
+/* Reviews Styles */
+#reviews {
+    margin-bottom: 1.5rem;
+}
+
+.reviews-grid {
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+}
+
+.review-box {
+    justify-items: center;
+    padding-top:10px;
+}
 
 /* Media Queries */
 /* Medium sized screens (tablets up, min width 768px) */
 @media screen and (min-width: 768px) {
-    .test-layout {
-    border:2px solid black;
-    width:50%;
-    background-color: aqua;
-    height: 25vh;
-    flex-shrink: 0;
-}
+    .services-box {
+        width: 50%;
+        height: 25vh;
+        flex-shrink: 0;
+    }
+
+    .review-box {
+        width: 33%;
+        height: 25vh;
+        flex-shrink: 0;
+    }
 }
