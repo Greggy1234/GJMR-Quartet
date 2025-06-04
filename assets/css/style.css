@@ -18,6 +18,14 @@
 }
 
 /* Global Styles */
+
+.test-layout {
+    border:2px solid black;
+    width:100%;
+    background-color: aqua;
+    height: 25vh;
+}
+
 body {
     font-family: var(--secondary-font);
     background-color: var(--primary-background-color);
@@ -90,7 +98,30 @@ h6 {
 }
 
 /* Header Styles */
+#header {
+    margin-bottom:1.5rem;
+}
 
 #header .primary-button {
     font-size: 1.2rem;
+}
+
+/* Services Styles */
+.all-services-boxes {
+    display:flex;
+    width:100%;
+    flex-wrap: wrap;
+}
+
+
+/* Media Queries */
+/* Medium sized screens (tablets up, min width 768px) */
+@media screen and (min-width: 768px) {
+    .test-layout {
+    border:2px solid black;
+    width:50%;
+    background-color: aqua;
+    height: 25vh;
+    flex-shrink: 0;
+}
 }
