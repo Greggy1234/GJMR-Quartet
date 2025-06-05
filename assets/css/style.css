@@ -18,10 +18,15 @@
 }
 
 /* Global Styles */
-
 .test-layout {
     border: 2px solid black;
     width: 100%;
+    background-color: aqua;
+    height: 25vh;
+}
+
+.test-layout-2 {
+    border: 2px solid black;
     background-color: aqua;
     height: 25vh;
 }
@@ -43,6 +48,14 @@ h6 {
     color: var(--primary-text-color);
 }
 
+hr {
+    width:60%;
+    justify-self: center;
+    opacity:1;
+    border:none;
+    border-top:3px solid var(--highlight);
+}
+
 .text-upper {
     text-transform: uppercase;
 }
@@ -54,6 +67,7 @@ h6 {
 .bold-text {
     font-weight: bold;
 }
+
 
 /* Button Styles*/
 .primary-button {
@@ -151,6 +165,10 @@ h6 {
     border-radius: 0px;
 }
 
+#recent-concerts .top-row-card {
+    margin-bottom:24px
+}
+
 /* Media Queries */
 /* Medium sized screens (tablets up, min width 768px) */
 @media screen and (min-width: 768px) {
@@ -165,4 +183,11 @@ h6 {
         height: 25vh;
         flex-shrink: 0;
     }
+}
+
+/* Larg sized screens (Small laptop up, min width 992px) */
+@media screen and (min-width: 992px) {
+    #recent-concerts .top-row-card {
+    margin-bottom:0px
+}
 }
