@@ -142,6 +142,15 @@ h6 {
     margin-bottom: 1.5rem;
 }
 
+#recent-concerts h2 {
+    margin-bottom: 2rem;
+}
+
+#recent-concerts .card,
+#recent-concerts .card-img-top {
+    border-radius: 0px;
+}
+
 /* Media Queries */
 /* Medium sized screens (tablets up, min width 768px) */
 @media screen and (min-width: 768px) {
