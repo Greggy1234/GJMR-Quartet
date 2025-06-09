@@ -49,11 +49,11 @@ h6 {
 }
 
 hr {
-    width:60%;
+    width: 60%;
     justify-self: center;
-    opacity:1;
-    border:none;
-    border-top:3px solid var(--highlight);
+    opacity: 1;
+    border: none;
+    border-top: 3px solid var(--highlight);
 }
 
 .text-upper {
@@ -112,7 +112,8 @@ hr {
 }
 
 #navbar .nav-button-container {
-    align-self: center;
+    align-self: left;
+    margin-top: 1rem;
 }
 
 /* Header Styles */
@@ -166,7 +167,13 @@ hr {
 }
 
 #recent-concerts .top-row-card {
-    margin-bottom:24px
+    margin-bottom: 24px
+}
+
+/* Social Styles */
+.icons {
+    margin-right: 0.5rem;
+    font-size: x-large;
 }
 
 /* Media Queries */
@@ -183,11 +190,18 @@ hr {
         height: 25vh;
         flex-shrink: 0;
     }
+
+
 }
 
-/* Larg sized screens (Small laptop up, min width 992px) */
+/* Large sized screens (Small laptop up, min width 992px) */
 @media screen and (min-width: 992px) {
     #recent-concerts .top-row-card {
-    margin-bottom:0px
-}
+        margin-bottom: 0px
+    }
+
+    #navbar .nav-button-container {
+        align-self: center;
+        margin-top: 0rem;
+    }
 }
