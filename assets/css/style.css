@@ -170,6 +170,12 @@ hr {
     margin-bottom: 24px
 }
 
+/* Newsletter Signup Styles */
+#newsletter-signup .primary-button {
+    padding-top:2px;
+    padding-bottom:2px;
+}
+
 /* Social Styles */
 .icons {
     margin-right: 0.5rem;
@@ -186,7 +192,7 @@ hr {
     }
 
     .review-box {
-        width: 33%;
+        width: 33.3%;
         height: 25vh;
         flex-shrink: 0;
     }
