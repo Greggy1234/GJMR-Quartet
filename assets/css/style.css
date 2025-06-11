@@ -68,6 +68,11 @@ hr {
     font-weight: bold;
 }
 
+.no-border-right {
+    border-right: 0px !important;
+}
+
+
 
 /* Button Styles*/
 .primary-button {
@@ -172,14 +177,38 @@ hr {
 
 /* Newsletter Signup Styles */
 #newsletter-signup .primary-button {
-    padding-top:2px;
-    padding-bottom:2px;
+    padding-top: 2px;
+    padding-bottom: 2px;
 }
 
 /* Social Styles */
 .icons {
     margin-right: 0.5rem;
     font-size: x-large;
+}
+
+/* Selected Excertps Styles */
+#pre-excerpts {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#links-excerpts {
+    align-items: center;
+}
+
+#links-excerpts ul {
+    display: flex;
+    list-style: none;
+    margin-bottom: 0px;
+}
+
+#links-excerpts li {
+    border: 1.5px solid black;
+    padding-left: 4px;
+    padding-right: 4px;
+    font-size: 1.4rem;
 }
 
 /* Media Queries */
