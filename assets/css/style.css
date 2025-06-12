@@ -56,11 +56,6 @@ hr {
     border-top: 3px solid var(--highlight);
 }
 
-.header-image-fit {
-    max-height: 400px;
-    object-fit: contain;
-}
-
 .text-upper {
     text-transform: uppercase;
 }
@@ -137,6 +132,11 @@ hr {
 
 #header .left-side {
     margin-bottom: 1rem;
+}
+
+.header-image-fit {
+    max-height: 400px;
+    object-fit: cover;
 }
 
 /* Services Styles */
