@@ -68,9 +68,10 @@ hr {
     font-weight: bold;
 }
 
-.no-border-right {
-    border-right: 0px !important;
+.border-right {
+    border-right: 1px solid black;
 }
+
 
 
 
@@ -196,53 +197,87 @@ hr {
     font-size: x-large;
 }
 
-/* Selected Excertps Styles */
-#pre-excerpts {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
+/* Selected Excerpts Styles */
 
-#links-excerpts {
-    align-items: center;
-}
 
 #links-excerpts ul {
-    display: flex;
     list-style: none;
-    margin-bottom: 0px;
+    padding-left: 0px;
+    text-decoration: underline;
 }
 
-#links-excerpts li {
-    border: 1.5px solid black;
-    padding-left: 4px;
-    padding-right: 4px;
-    font-size: 1.4rem;
+#links-excerpts li:hover {
+    list-style: none;
+    padding-left: 0px;
+    text-decoration: underline;
+    color: var(--light-highlight);
 }
+
+.excerpt .text-center {
+    margin-bottom: 1.5rem;
+}
+
+.excerpts-image {
+    background-size: contain;
+    width: 258px;
+    background-position: center;
+    margin: auto;
+    display: block;
+    margin-bottom: 2rem;
+}
+
+.excerpt h3 {
+    text-align: center;
+}
+
 
 /* Media Queries */
+/* Small sized screens (mobiles up, min width 576px) */
+@media screen and (min-width: 576px) {
+    .excerpts-image {
+        width: 75%;
+        max-height: 372px;
+    }
+}
+
 /* Medium sized screens (tablets up, min width 768px) */
 @media screen and (min-width: 768px) {
+
+    /* Services Styles */
     .services-box {
         width: 50%;
         height: 25vh;
         flex-shrink: 0;
     }
 
+    /* Reviews Styles */
     .review-box {
         width: 33.3%;
         height: 25vh;
         flex-shrink: 0;
     }
 
+    /* Selected Excerpts Styles */
+    .excerpt .text-center {
+        font-size: 1.5rem;
+    }
+
+    .excerpt h3 {
+        text-align: left;
+    }
+
+    #romantic-music h3, #baroque-music h3 {
+        text-align:right;
+        padding-right:30px;
+    }
 
 }
 
 /* Large sized screens (Small laptop up, min width 992px) */
 @media screen and (min-width: 992px) {
     #header .left-side {
-    margin-bottom: 0;
-}
+        margin-bottom: 0;
+    }
 
     #recent-concerts .top-row-card {
         margin-bottom: 0px
@@ -251,5 +286,28 @@ hr {
     #navbar .nav-button-container {
         align-self: center;
         margin-top: 0rem;
+    }
+
+     #romantic-music h3, #baroque-music h3 {
+        text-align:right;
+        padding-right:130px;
+    }
+
+}
+
+/* Extra Large sized screens (laptop up, min width 1200px) */
+@media screen and (min-width: 1200px) {
+    #romantic-music h3, #baroque-music h3 {
+        text-align:right;
+        padding-right:175px;
+    }
+}
+
+
+/* Extra Extra Large sized screens (laptop up, min width 1400px) */
+@media screen and (min-width: 1400px) {
+    #romantic-music h3, #baroque-music h3 {
+        text-align:right;
+        padding-right:235px;
     }
 }
