@@ -56,6 +56,11 @@ hr {
     border-top: 3px solid var(--highlight);
 }
 
+.header-image-fit {
+    max-height: 400px;
+    object-fit: contain;
+}
+
 .text-upper {
     text-transform: uppercase;
 }
@@ -128,6 +133,10 @@ hr {
 
 #header .primary-button {
     font-size: 1.2rem;
+}
+
+#header .left-side {
+    margin-bottom: 1rem;
 }
 
 /* Services Styles */
@@ -231,6 +240,10 @@ hr {
 
 /* Large sized screens (Small laptop up, min width 992px) */
 @media screen and (min-width: 992px) {
+    #header .left-side {
+    margin-bottom: 0;
+}
+
     #recent-concerts .top-row-card {
         margin-bottom: 0px
     }
