@@ -72,7 +72,10 @@ hr {
     border-right: 1px solid black;
 }
 
-
+/* This is for the Recent Concerts section and Calendar page. It adds a margin bottom when the cards go into 2 rows */
+.top-row-card {
+    margin-bottom: 24px
+}
 
 
 /* Button Styles*/
@@ -167,7 +170,7 @@ hr {
     padding-top: 10px;
 }
 
-/* Landmark Concerts */
+/* Landmark Concerts Styles */
 #recent-concerts {
     margin-bottom: 1.5rem;
 }
@@ -179,10 +182,6 @@ hr {
 #recent-concerts .card,
 #recent-concerts .card-img-top {
     border-radius: 0px;
-}
-
-#recent-concerts .top-row-card {
-    margin-bottom: 24px
 }
 
 /* Newsletter Signup Styles */
@@ -198,8 +197,6 @@ hr {
 }
 
 /* Selected Excerpts Styles */
-
-
 #links-excerpts ul {
     list-style: none;
     padding-left: 0px;
@@ -230,10 +227,25 @@ hr {
     text-align: center;
 }
 
+/* Calendar Styles */
+#calendar .card,
+#calendar .card-img-top {
+    border-radius: 0px;
+}
+
+#calendar h2 {
+    margin-bottom:2rem;
+}
+
+#calendar hr {
+    margin-bottom:1.5rem;
+}
 
 /* Media Queries */
 /* Small sized screens (mobiles up, min width 576px) */
 @media screen and (min-width: 576px) {
+
+    /* Selected excerpts Styles */
     .excerpts-image {
         width: 75%;
         max-height: 372px;
@@ -266,47 +278,64 @@ hr {
         text-align: left;
     }
 
-    #romantic-music h3, #baroque-music h3 {
-        text-align:right;
+    #romantic-music h3,
+    #baroque-music h3 {
+        text-align: right;
     }
 
 }
 
 /* Large sized screens (Small laptop up, min width 992px) */
 @media screen and (min-width: 992px) {
+
+    /* Header Styles */
     #header .left-side {
         margin-bottom: 0;
     }
 
-    #recent-concerts .top-row-card {
-        margin-bottom: 0px
-    }
-
+    /* Nav Bar Styles */
     #navbar .nav-button-container {
         align-self: center;
         margin-top: 0rem;
     }
 
-     #romantic-music h3, #baroque-music h3 {
-        text-align:right;
-        padding-right:60px;
+    /* Landmark Concerts Styles */
+    #recent-concerts .top-row-card {
+        margin-bottom: 0px
     }
 
+    /* Selected Excerpts Styles */
+    #romantic-music h3,
+    #baroque-music h3 {
+        text-align: right;
+        padding-right: 60px;
+    }
+
+     /* Calendar Styles */
+    #calendar .top-row-card {
+        margin-bottom: 0px
+    }
 }
 
 /* Extra Large sized screens (laptop up, min width 1200px) */
 @media screen and (min-width: 1200px) {
-    #romantic-music h3, #baroque-music h3 {
-        text-align:right;
-        padding-right:100px;
+
+    /* Selected Excerpts Styles */
+    #romantic-music h3,
+    #baroque-music h3 {
+        text-align: right;
+        padding-right: 100px;
     }
 }
 
 
 /* Extra Extra Large sized screens (laptop up, min width 1400px) */
 @media screen and (min-width: 1400px) {
-    #romantic-music h3, #baroque-music h3 {
-        text-align:right;
-        padding-right:115px;
+
+    /* Selected Excerpts Styles */
+    #romantic-music h3,
+    #baroque-music h3 {
+        text-align: right;
+        padding-right: 115px;
     }
 }
