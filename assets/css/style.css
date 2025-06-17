@@ -233,11 +233,11 @@ hr {
 }
 
 #calendar h2 {
-    margin-bottom:2rem;
+    margin-bottom: 2rem;
 }
 
 #calendar hr {
-    margin-bottom:1.5rem;
+    margin-bottom: 1.5rem;
 }
 
 /* Media Queries */
@@ -287,11 +287,6 @@ hr {
 /* Large sized screens (Small laptop up, min width 992px) */
 @media screen and (min-width: 992px) {
 
-    /* Header Styles */
-    #header .left-side {
-        margin-bottom: 0;
-    }
-
     /* Nav Bar Styles */
     #navbar .nav-button-container {
         align-self: center;
@@ -310,7 +305,7 @@ hr {
         padding-right: 60px;
     }
 
-     /* Calendar Styles */
+    /* Calendar Styles */
     #calendar .top-row-card {
         margin-bottom: 0px
     }
@@ -318,6 +313,20 @@ hr {
 
 /* Extra Large sized screens (laptop up, min width 1200px) */
 @media screen and (min-width: 1200px) {
+
+    /* Header Styles */
+    #header .left-side {
+        margin-bottom: 0;
+    }
+
+    .rel-pos {
+        position: relative;
+    }
+
+    .bottom-div {
+        position: absolute;
+        bottom: 0px;
+    }
 
     /* Selected Excerpts Styles */
     #romantic-music h3,
