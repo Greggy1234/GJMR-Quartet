@@ -240,6 +240,21 @@ hr {
     margin-bottom: 1.5rem;
 }
 
+/* Booking Form Styles */
+#book-form input, #booking-type {
+    width:100%;
+    height:2rem;
+}
+
+#booking-message {
+    width:100%;
+}
+
+#book-form fieldset {
+    border:8px double var(--light-highlight);
+    padding:0px 15px;
+}
+
 /* Media Queries */
 /* Small sized screens (mobiles up, min width 576px) */
 @media screen and (min-width: 576px) {

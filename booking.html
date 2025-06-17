@@ -66,22 +66,63 @@
         <div class="row">
             <div class="col-12 text-start mt-4">
                 <h1 class="display-3 mb-3">GJMR Quartet</h1>
-                <p class="lead sub-header-font-size">Bringing classical music to the 21st century</p>                
-            </div>           
+                <p class="lead sub-header-font-size">Bringing classical music to the 21st century</p>
+            </div>
         </div>
     </header>
 
     <!-- Main Content -->
-     <section id="book-form" class="container">
-        <h2>Booking Form</h2>
+    <section id="book-form" class="container">
         <form action="success.html" method="post">
-            <div class="row">
-                
-            </div>
-            
+            <fieldset>
+                <legend class="mb-4 w-auto float-none px-3">Booking Form</legend>
+                <div class="row">
+                    <div class="col-12 col-md-4 mb-4">
+                        <label for="first-name">First Name:</label>
+                        <br>
+                        <input type="text" id="first-name" name="first-name" required>
+                    </div>
+                    <div class="col-12 col-md-4 mb-4">
+                        <label for="last-name">Last Name:</label>
+                        <br>
+                        <input type="text" id="last-name" name="last-name" required>
+                    </div>
+                    <div class="col-12 col-md-4 mb-4">
+                        <label for="contact-number">Contact Number:</label>
+                        <br>
+                        <input placeholder="Please add country code" type="number" id="contact-number"
+                            name="contact-number" required>
+                    </div>
+                    <div class="col-12 col-md-8 mb-4">
+                        <label for="email">Contact Email:</label>
+                        <br>
+                        <input type="email" id="email" name="email" required>
+                    </div>
+                    <div class="col-12 col-md-4 mb-4">
+                        <label for="booking-type">Booking Type:</label>
+                        <br>
+                        <select id="booking-type" name="booking-type" required>
+                            <option value="" selected>Choose booking type</option>
+                            <option value="wedding">Wedding</option>
+                            <option value="private-function">Private Function</option>
+                            <option value="masterclass">Masterclass</option>
+                            <option value="other">Other (please specify below)</option>
+                        </select>
+                    </div>
+                    <div class="col-12 mb-4">
+                        <label for="booking-message">Any Relevant Information</label>
+                        <br>
+                        <textarea id="booking-message" name="booking-message" rows="7" required
+                            placeholder="Add any information about the specifics of your booking here, including length of engagement, favourite style of music, location, and budget expectations"></textarea>
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-4 col-xl-3 mb-4">
+                        <button type="submit" class="primary-button text-upper">Send Your Booking Request</button>
+                    </div>
+                </div>
+            </fieldset>
         </form>
-     </section>
-    
+    </section>
+
     <hr>
     <!-- Footer -->
     <footer id="footer" class="container">
