@@ -61,7 +61,7 @@
         </div>
     </nav>
 
-    <!-- Header with Carousel -->
+    <!-- Header  -->
     <header id="header" class="container">
         <div class="row">
             <div class="col-12 text-start mt-4">
@@ -72,6 +72,7 @@
     </header>
 
     <!-- Main Content -->
+    <!-- Booking Form -->
     <section id="book-form" class="container">
         <form action="success.html" method="post">
             <fieldset>
@@ -93,10 +94,15 @@
                         <input placeholder="Please add country code" type="number" id="contact-number"
                             name="contact-number" required>
                     </div>
-                    <div class="col-12 col-md-8 mb-4">
+                    <div class="col-12 col-md-4 mb-4">
                         <label for="email">Contact Email:</label>
                         <br>
                         <input type="email" id="email" name="email" required>
+                    </div>
+                    <div class="col-12 col-md-4 mb-4">
+                        <label for="location">Location of Engagement:</label>
+                        <br>
+                        <input type="text" id="location" name="location" required>
                     </div>
                     <div class="col-12 col-md-4 mb-4">
                         <label for="booking-type">Booking Type:</label>
@@ -113,7 +119,7 @@
                         <label for="booking-message">Any Relevant Information</label>
                         <br>
                         <textarea id="booking-message" name="booking-message" rows="7" required
-                            placeholder="Add any information about the specifics of your booking here, including length of engagement, favourite style of music, location, and budget expectations"></textarea>
+                            placeholder="Add any information about the specifics of your booking here, including length of engagement, favourite style of music, and budget expectations"></textarea>
                     </div>
                     <div class="col-12 col-md-6 col-lg-4 col-xl-3 mb-4">
                         <button type="submit" class="primary-button text-upper">Send Your Booking Request</button>
@@ -122,8 +128,8 @@
             </fieldset>
         </form>
     </section>
-
     <hr>
+    
     <!-- Footer -->
     <footer id="footer" class="container">
         <div class="row">
