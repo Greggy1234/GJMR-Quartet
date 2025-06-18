@@ -209,6 +209,11 @@ hr {
     color: var(--light-highlight);
 }
 
+#links-excerpts a {
+    color:inherit;
+    text-decoration: none;
+}
+
 .excerpt .text-center {
     margin-bottom: 1.5rem;
 }
