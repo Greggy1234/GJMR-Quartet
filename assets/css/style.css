@@ -72,6 +72,10 @@ hr {
     border-right: 1px solid black;
 }
 
+.white-background {
+    background-color: white;
+}
+
 /* This is for the Recent Concerts section and Calendar page. It adds a margin bottom when the cards go into 2 rows */
 .top-row-card {
     margin-bottom: 24px
@@ -154,8 +158,13 @@ hr {
 }
 
 /* Reviews Styles */
-#reviews {
-    margin-bottom: 1.5rem;
+#reviews h2 {
+    margin-bottom:1rem;
+}
+#reviews .double-border {
+    border:10px double var(--light-highlight);
+    padding:20px 15px;
+    margin:0px 1rem 1.5rem;
 }
 
 .reviews-grid {
@@ -167,6 +176,13 @@ hr {
 .review-box {
     justify-items: center;
     padding-top: 10px;
+    margin-bottom: 1.2rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.review-rating {
+    margin-top:auto;
 }
 
 /* Landmark Concerts Styles */
@@ -283,8 +299,7 @@ hr {
 
     /* Reviews Styles */
     .review-box {
-        width: 33.3%;
-        height: 25vh;
+        width: 50%;
         flex-shrink: 0;
     }
 
@@ -312,6 +327,16 @@ hr {
         align-self: center;
         margin-top: 0rem;
     }
+
+    /* Reviews Styles */
+    .review-box {
+        width: 25%;
+        flex-shrink: 0;
+    }
+
+    #reviews h2 {
+    margin-bottom:2.5rem;
+}
 
     /* Landmark Concerts Styles */
     #recent-concerts .top-row-card {
