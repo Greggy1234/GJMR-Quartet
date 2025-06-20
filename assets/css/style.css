@@ -76,6 +76,10 @@ hr {
     background-color: white;
 }
 
+.margin-top-auto {
+    margin-top:auto;
+}
+
 /* This is for the Recent Concerts section and Calendar page. It adds a margin bottom when the cards go into 2 rows */
 .top-row-card {
     margin-bottom: 24px
@@ -362,15 +366,6 @@ hr {
     /* Header Styles */
     #header .left-side {
         margin-bottom: 0;
-    }
-
-    .rel-pos {
-        position: relative;
-    }
-
-    .bottom-div {
-        position: absolute;
-        bottom: 0px;
     }
 
     /* Selected Excerpts Styles */
