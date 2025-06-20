@@ -22,7 +22,7 @@
     border: 2px solid black;
     width: 100%;
     background-color: aqua;
-    height: 25vh;
+    height: 40vh;
 }
 
 .test-layout-2 {
@@ -161,6 +161,44 @@ hr {
     flex-wrap: wrap;
 }
 
+.services-box { 
+    width: 100%;
+    height: 25vh;
+}
+
+.services-box h3 {
+    color:white;
+}
+
+.services-wedding {
+    /* Overlay technique taken from https://dev.to/selbekk/how-to-overlay-your-background-images-59le */
+    background-image: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url(../images/index-html-services-box-1-wedding.webp);
+    background-position: center;
+    background-size: cover;
+    gap:4rem;
+}
+
+.services-private {
+    background-image: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url(../images/index-html-services-box-2-private.webp);
+    background-position: center;
+    background-size: cover;
+    gap:4rem;
+}
+
+.services-public {
+    background-image: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url(../images/index-html-services-box-3-public.webp);
+    background-position: center;
+    background-size: cover;
+    gap:4rem;
+}
+
+.services-masterclass {
+    background-image: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url(../images/index-html-services-box-4-masterclass.webp);
+    background-position: center;
+    background-size: cover;
+    gap:4rem;
+}
+
 /* Reviews Styles */
 #reviews h2 {
     margin-bottom:1rem;
@@ -297,7 +335,7 @@ hr {
     /* Services Styles */
     .services-box {
         width: 50%;
-        height: 25vh;
+        height: 40vh;
         flex-shrink: 0;
     }
 
