@@ -76,6 +76,10 @@ hr {
     background-color: white;
 }
 
+.white-gradient-background {
+    background-image: linear-gradient(var(--primary-background-color),white);
+}
+
 .margin-top-auto {
     margin-top:auto;
 }
@@ -134,7 +138,7 @@ hr {
 
 /* Header Styles */
 #header {
-    margin-bottom: 1.5rem;
+    padding-bottom: 1.5rem;
 }
 
 #header .primary-button {
@@ -151,10 +155,6 @@ hr {
 }
 
 /* Services Styles */
-#services {
-    margin-bottom: 1.5rem;
-}
-
 .services-grid {
     display: flex;
     width: 100%;
@@ -233,7 +233,7 @@ hr {
 }
 
 #recent-concerts h2 {
-    margin-bottom: 2rem;
+    margin: 2rem 0;
 }
 
 #recent-concerts .card,
