@@ -80,6 +80,10 @@ hr {
     background-image: linear-gradient(var(--primary-background-color),white);
 }
 
+.pink-gradient-background {
+    background-image: linear-gradient(white, var(--primary-background-color));
+}
+
 .margin-top-auto {
     margin-top:auto;
 }
@@ -233,7 +237,7 @@ hr {
 }
 
 #recent-concerts h2 {
-    margin: 2rem 0;
+    margin-bottom: 2rem;
 }
 
 #recent-concerts .card,
