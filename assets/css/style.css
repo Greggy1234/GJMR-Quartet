@@ -77,7 +77,7 @@ hr {
 }
 
 .white-gradient-background {
-    background-image: linear-gradient(var(--primary-background-color),white);
+    background-image: linear-gradient(var(--primary-background-color), white);
 }
 
 .pink-gradient-background {
@@ -85,7 +85,7 @@ hr {
 }
 
 .margin-top-auto {
-    margin-top:auto;
+    margin-top: auto;
 }
 
 /* This is for the Recent Concerts section and Calendar page. It adds a margin bottom when the cards go into 2 rows */
@@ -165,52 +165,53 @@ hr {
     flex-wrap: wrap;
 }
 
-.services-box { 
+.services-box {
     width: 100%;
     height: 25vh;
 }
 
 .services-box h3 {
-    color:white;
+    color: white;
 }
 
 .services-wedding {
     /* Overlay technique taken from https://dev.to/selbekk/how-to-overlay-your-background-images-59le */
-    background-image: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url(../images/index-html-services-box-1-wedding.webp);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../images/index-html-services-box-1-wedding.webp);
     background-position: center;
     background-size: cover;
-    gap:4rem;
+    gap: 4rem;
 }
 
 .services-private {
-    background-image: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url(../images/index-html-services-box-2-private.webp);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../images/index-html-services-box-2-private.webp);
     background-position: center;
     background-size: cover;
-    gap:4rem;
+    gap: 4rem;
 }
 
 .services-public {
-    background-image: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url(../images/index-html-services-box-3-public.webp);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../images/index-html-services-box-3-public.webp);
     background-position: center;
     background-size: cover;
-    gap:4rem;
+    gap: 4rem;
 }
 
 .services-masterclass {
-    background-image: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url(../images/index-html-services-box-4-masterclass.webp);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../images/index-html-services-box-4-masterclass.webp);
     background-position: center;
     background-size: cover;
-    gap:4rem;
+    gap: 4rem;
 }
 
 /* Reviews Styles */
 #reviews h2 {
-    margin-bottom:1rem;
+    margin-bottom: 1rem;
 }
+
 #reviews .double-border {
-    border:10px double var(--light-highlight);
-    padding:20px 15px;
-    margin:0px 1rem 1.5rem;
+    border: 10px double var(--light-highlight);
+    padding: 20px 15px;
+    margin: 0px 1rem 1.5rem;
 }
 
 .reviews-grid {
@@ -228,7 +229,7 @@ hr {
 }
 
 .review-rating {
-    margin-top:auto;
+    margin-top: auto;
 }
 
 /* Landmark Concerts Styles */
@@ -272,7 +273,7 @@ hr {
 }
 
 #links-excerpts a {
-    color:inherit;
+    color: inherit;
     text-decoration: none;
 }
 
@@ -308,18 +309,57 @@ hr {
 }
 
 /* Booking Form Styles */
-#book-form input, #booking-type {
-    width:100%;
-    height:2rem;
+#book-form legend {
+    font-family: var(--primary-font);
+    font-style: italic;
+    font-size: 2rem;
+}
+
+#book-form input,
+#booking-type {
+    width: 100%;
+    height: 2rem;
 }
 
 #booking-message {
-    width:100%;
+    width: 100%;
 }
 
 #book-form fieldset {
-    border:8px double var(--light-highlight);
-    padding:0px 15px;
+    border: 8px double var(--light-highlight);
+    padding: 0px 15px;
+}
+
+/* Pricing Guide Styles */
+#pricing {
+    padding-top:1rem;
+    padding-bottom: 1.5rem;
+}
+
+#pricing table {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#pricing th {
+    font-size: 1.2rem;
+    border-top: 1px solid black;
+}
+
+#pricing th,
+#pricing td {
+    padding: 0.7rem 2rem;
+}
+
+/* Pseudo class taken from https://www.w3schools.com/html/html_table_styling.asp */
+#pricing tr:nth-child(even) {
+    background-color: rgba(146,152,131,0.1);
+    color:var(--highlight);
+}
+
+#pricing tr {
+    border-bottom:1px solid black;
+    font-weight: bold;
 }
 
 /* Media Queries */
@@ -381,8 +421,8 @@ hr {
     }
 
     #reviews h2 {
-    margin-bottom:2.5rem;
-}
+        margin-bottom: 2.5rem;
+    }
 
     /* Landmark Concerts Styles */
     #recent-concerts .top-row-card {
