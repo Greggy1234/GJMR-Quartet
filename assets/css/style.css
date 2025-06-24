@@ -332,7 +332,7 @@ hr {
 
 /* Pricing Guide Styles */
 #pricing {
-    padding-top:1rem;
+    padding-top: 1rem;
     padding-bottom: 1.5rem;
 }
 
@@ -342,23 +342,24 @@ hr {
 }
 
 #pricing th {
-    font-size: 1.2rem;
     border-top: 1px solid black;
+    padding: 0.7rem 0.4rem;
+    font-size: 0.9rem
 }
 
-#pricing th,
 #pricing td {
-    padding: 0.7rem 2rem;
+    padding: 0.7rem 0.4rem;
+    font-size: 0.7rem;
 }
 
 /* Pseudo class taken from https://www.w3schools.com/html/html_table_styling.asp */
 #pricing tr:nth-child(even) {
-    background-color: rgba(146,152,131,0.1);
-    color:var(--highlight);
+    background-color: rgba(146, 152, 131, 0.1);
+    color: var(--highlight);
 }
 
 #pricing tr {
-    border-bottom:1px solid black;
+    border-bottom: 1px solid black;
     font-weight: bold;
 }
 
@@ -370,6 +371,17 @@ hr {
     .excerpts-image {
         width: 75%;
         max-height: 372px;
+    }
+
+    /* Pricing Guide Styles */
+    #pricing th {
+        padding: 0.7rem 0.7rem;
+        font-size: 1rem;
+    }
+
+    #pricing td {
+        padding: 0.7rem 0.7rem;
+        font-size: 0.8rem;
     }
 }
 
@@ -403,36 +415,18 @@ hr {
         text-align: right;
     }
 
+    /* Pricing Guide Styles */
+    #pricing th {
+        padding: 0.7rem 0.2rem;
+        font-size: 1.2rem;
+    }
+
+    #pricing td {
+        padding: 0.7rem 2rem;
+        font-size: 1rem;
+    }
+
 }
-
-/* Stylings for table for 768 up 
-
-#pricing {
-    padding-top:1rem;
-    padding-bottom: 1.5rem;
-}
-
-#pricing table {
-    margin-left: auto;
-    margin-right: auto;
-}
-
-#pricing th {
-    font-size: 1.2rem;
-    border-top: 1px solid black;
-}
-
-#pricing th,
-#pricing td {
-    padding: 0.7rem 2rem;
-}
-
-#pricing tr {
-    border-bottom:1px solid black;
-    font-weight: bold;
-}
-
-*/
 
 /* Large sized screens (Small laptop up, min width 992px) */
 @media screen and (min-width: 992px) {
