@@ -176,28 +176,28 @@ hr {
 
 .services-wedding {
     /* Overlay technique taken from https://dev.to/selbekk/how-to-overlay-your-background-images-59le */
-    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../images/index-html-services-box-1-wedding.webp);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../images/index-services-box-1-wedding.webp);
     background-position: center;
     background-size: cover;
     gap: 4rem;
 }
 
 .services-private {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../images/index-html-services-box-2-private.webp);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../images/index-services-box-2-private.webp);
     background-position: center;
     background-size: cover;
     gap: 4rem;
 }
 
 .services-public {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../images/index-html-services-box-3-public.webp);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../images/index-services-box-3-public.webp);
     background-position: center;
     background-size: cover;
     gap: 4rem;
 }
 
 .services-masterclass {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../images/index-html-services-box-4-masterclass.webp);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../images/index-services-box-4-masterclass.webp);
     background-position: center;
     background-size: cover;
     gap: 4rem;
@@ -239,6 +239,10 @@ hr {
 
 #recent-concerts h2 {
     margin-bottom: 2rem;
+}
+
+#recent-concerts img {
+    height:50%;
 }
 
 #recent-concerts .card,
