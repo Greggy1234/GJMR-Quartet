@@ -405,6 +405,35 @@ hr {
 
 }
 
+/* Stylings for table for 768 up 
+
+#pricing {
+    padding-top:1rem;
+    padding-bottom: 1.5rem;
+}
+
+#pricing table {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#pricing th {
+    font-size: 1.2rem;
+    border-top: 1px solid black;
+}
+
+#pricing th,
+#pricing td {
+    padding: 0.7rem 2rem;
+}
+
+#pricing tr {
+    border-bottom:1px solid black;
+    font-weight: bold;
+}
+
+*/
+
 /* Large sized screens (Small laptop up, min width 992px) */
 @media screen and (min-width: 992px) {
 
