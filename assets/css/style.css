@@ -35,7 +35,7 @@ body {
     font-family: var(--secondary-font);
     background-color: var(--primary-background-color);
     color: var(--primary-text-color);
-    padding-top:56px;
+    padding-top: 56px;
 }
 
 h1,
@@ -415,11 +415,6 @@ hr {
         text-align: left;
     }
 
-    #romantic-music h3,
-    #baroque-music h3 {
-        text-align: right;
-    }
-
     /* Pricing Guide Styles */
     #pricing th {
         padding: 0.7rem 2rem;
@@ -465,13 +460,6 @@ hr {
         margin-bottom: 0px
     }
 
-    /* Selected Excerpts Styles */
-    #romantic-music h3,
-    #baroque-music h3 {
-        text-align: right;
-        padding-right: 60px;
-    }
-
     /* Calendar Styles */
     #calendar .top-row-card {
         margin-bottom: 0px
@@ -484,24 +472,5 @@ hr {
     /* Header Styles */
     #header .left-side {
         margin-bottom: 0;
-    }
-
-    /* Selected Excerpts Styles */
-    #romantic-music h3,
-    #baroque-music h3 {
-        text-align: right;
-        padding-right: 100px;
-    }
-}
-
-
-/* Extra Extra Large sized screens (laptop up, min width 1400px) */
-@media screen and (min-width: 1400px) {
-
-    /* Selected Excerpts Styles */
-    #romantic-music h3,
-    #baroque-music h3 {
-        text-align: right;
-        padding-right: 115px;
     }
 }
