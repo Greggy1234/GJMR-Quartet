@@ -18,13 +18,6 @@
 }
 
 /* Global Styles */
-.test-layout {
-    border: 2px solid black;
-    width: 100%;
-    background-color: aqua;
-    height: 40vh;
-}
-
 .test-layout-2 {
     border: 2px solid black;
     background-color: aqua;
@@ -287,9 +280,8 @@ hr {
 }
 
 .excerpts-image {
-    background-size: contain;
+    object-fit: cover;
     width: 258px;
-    background-position: center;
     margin: auto;
     display: block;
     margin-bottom: 2rem;
