@@ -400,7 +400,7 @@ hr {
 
     /* Selected Excerpts Styles */
     .excerpt .text-center {
-        font-size: 1.5rem;
+        font-size: 1.2rem;
     }
 
     .excerpt h3 {
@@ -450,6 +450,11 @@ hr {
     /* Landmark Concerts Styles */
     #recent-concerts .top-row-card {
         margin-bottom: 0px
+    }
+    
+    /* Selected Excerpts Styles */
+    .excerpt .text-center {
+        font-size: 1.5rem;
     }
 
     /* Calendar Styles */
