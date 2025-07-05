@@ -275,6 +275,10 @@ hr {
     text-decoration: none;
 }
 
+.excerpt {
+    padding-top:56px;
+}
+
 .excerpt .text-center {
     margin-bottom: 1.5rem;
 }

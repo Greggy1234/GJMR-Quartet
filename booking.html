@@ -68,94 +68,97 @@
             </div>
         </header>
         <!-- Main Content -->
-        <!-- Booking Form -->
-        <section id="book-form" class="container">
-            <form action="success.html" method="get">
-                <fieldset>
-                    <legend class="mb-4 w-auto float-none px-3">Booking Form</legend>
-                    <div class="row">
-                        <div class="col-12 col-md-4 mb-4">
-                            <label for="first-name">First Name:</label>
-                            <br>
-                            <input type="text" id="first-name" name="first-name" required>
+        <main>
+            <!-- Booking Form -->
+            <section id="book-form" class="container">
+                <form action="success.html" method="get">
+                    <fieldset>
+                        <legend class="mb-4 w-auto float-none px-3">Booking Form</legend>
+                        <div class="row">
+                            <div class="col-12 col-md-4 mb-4">
+                                <label for="first-name">First Name:</label>
+                                <br>
+                                <input type="text" id="first-name" name="first-name" required>
+                            </div>
+                            <div class="col-12 col-md-4 mb-4">
+                                <label for="last-name">Last Name:</label>
+                                <br>
+                                <input type="text" id="last-name" name="last-name" required>
+                            </div>
+                            <div class="col-12 col-md-4 mb-4">
+                                <label for="contact-number">Contact Number:</label>
+                                <br>
+                                <input placeholder="Please add country code" type="number" id="contact-number"
+                                    name="contact-number" required>
+                            </div>
+                            <div class="col-12 col-md-4 mb-4">
+                                <label for="email">Contact Email:</label>
+                                <br>
+                                <input type="email" id="email" name="email" required>
+                            </div>
+                            <div class="col-12 col-md-4 mb-4">
+                                <label for="location">Location of Engagement:</label>
+                                <br>
+                                <input type="text" id="location" name="location" required>
+                            </div>
+                            <div class="col-12 col-md-4 mb-4">
+                                <label for="booking-type">Booking Type:</label>
+                                <br>
+                                <select id="booking-type" name="booking-type" required>
+                                    <option value="" selected>Choose booking type</option>
+                                    <option value="wedding">Wedding</option>
+                                    <option value="private-function">Private Function</option>
+                                    <option value="masterclass">Masterclass</option>
+                                    <option value="other">Other (please specify below)</option>
+                                </select>
+                            </div>
+                            <div class="col-12 mb-4">
+                                <label for="booking-message">Any Relevant Information</label>
+                                <br>
+                                <textarea id="booking-message" name="booking-message" rows="7" required
+                                    placeholder="Add any information about the specifics of your booking here, including length of engagement, favourite style of music, and budget expectations"></textarea>
+                            </div>
+                            <div class="col-12 col-md-6 col-lg-4 mb-4">
+                                <button type="submit" class="primary-button text-upper">Send Your Booking
+                                    Request</button>
+                            </div>
                         </div>
-                        <div class="col-12 col-md-4 mb-4">
-                            <label for="last-name">Last Name:</label>
-                            <br>
-                            <input type="text" id="last-name" name="last-name" required>
-                        </div>
-                        <div class="col-12 col-md-4 mb-4">
-                            <label for="contact-number">Contact Number:</label>
-                            <br>
-                            <input placeholder="Please add country code" type="number" id="contact-number"
-                                name="contact-number" required>
-                        </div>
-                        <div class="col-12 col-md-4 mb-4">
-                            <label for="email">Contact Email:</label>
-                            <br>
-                            <input type="email" id="email" name="email" required>
-                        </div>
-                        <div class="col-12 col-md-4 mb-4">
-                            <label for="location">Location of Engagement:</label>
-                            <br>
-                            <input type="text" id="location" name="location" required>
-                        </div>
-                        <div class="col-12 col-md-4 mb-4">
-                            <label for="booking-type">Booking Type:</label>
-                            <br>
-                            <select id="booking-type" name="booking-type" required>
-                                <option value="" selected>Choose booking type</option>
-                                <option value="wedding">Wedding</option>
-                                <option value="private-function">Private Function</option>
-                                <option value="masterclass">Masterclass</option>
-                                <option value="other">Other (please specify below)</option>
-                            </select>
-                        </div>
-                        <div class="col-12 mb-4">
-                            <label for="booking-message">Any Relevant Information</label>
-                            <br>
-                            <textarea id="booking-message" name="booking-message" rows="7" required
-                                placeholder="Add any information about the specifics of your booking here, including length of engagement, favourite style of music, and budget expectations"></textarea>
-                        </div>
-                        <div class="col-12 col-md-6 col-lg-4 mb-4">
-                            <button type="submit" class="primary-button text-upper">Send Your Booking Request</button>
-                        </div>
-                    </div>
-                </fieldset>
-            </form>
-        </section>
-        <!-- Pricing Guide -->
-        <section id="pricing" class="container mt-3">
-            <h2>Pricing Table</h2>
-            <p>The prices below should be used as a general guide. Your booking cost will take into account all your
-                specific needs so could be lower or higher than shown.</p>
-            <table>
-                <tr>
-                    <th>Booking Type</th>
-                    <th>Mon-Thurs</th>
-                    <th>Fri-Sat</th>
-                    <th>Sun</th>
-                </tr>
-                <tr>
-                    <td>Weddings</td>
-                    <td>£150/hour</td>
-                    <td>£250/hour</td>
-                    <td>£200/hour</td>
-                </tr>
-                <tr>
-                    <td>Private Events</td>
-                    <td>£200/hour</td>
-                    <td>£300/hour</td>
-                    <td>£250/hour</td>
-                </tr>
-                <tr>
-                    <td>Masterclasses</td>
-                    <td>No masterclasss during these days</td>
-                    <td>£150/hour</td>
-                    <td>£150/hour</td>
-                </tr>
-            </table>
-        </section>
+                    </fieldset>
+                </form>
+            </section>
+            <!-- Pricing Guide -->
+            <section id="pricing" class="container mt-3">
+                <h2>Pricing Table</h2>
+                <p>The prices below should be used as a general guide. Your booking cost will take into account all your
+                    specific needs so could be lower or higher than shown.</p>
+                <table>
+                    <tr>
+                        <th>Booking Type</th>
+                        <th>Mon-Thurs</th>
+                        <th>Fri-Sat</th>
+                        <th>Sun</th>
+                    </tr>
+                    <tr>
+                        <td>Weddings</td>
+                        <td>£150/hour</td>
+                        <td>£250/hour</td>
+                        <td>£200/hour</td>
+                    </tr>
+                    <tr>
+                        <td>Private Events</td>
+                        <td>£200/hour</td>
+                        <td>£300/hour</td>
+                        <td>£250/hour</td>
+                    </tr>
+                    <tr>
+                        <td>Masterclasses</td>
+                        <td>No masterclasss during these days</td>
+                        <td>£150/hour</td>
+                        <td>£150/hour</td>
+                    </tr>
+                </table>
+            </section>
+        </main>
     </div>
     <!-- Footer -->
     <div class="white-background">
