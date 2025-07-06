@@ -82,7 +82,7 @@ hr {
     margin-top: auto;
 }
 
-/* This is for the Recent Concerts section and Calendar page. It adds a margin bottom when the cards go into 2 rows */
+/* This is for the Recent Concerts section and Calendar page. It adds a margin bottom when the cards go into 2 or more rows */
 .top-row-card {
     margin-bottom: 24px
 }
@@ -231,6 +231,10 @@ hr {
     margin-bottom: 1.5rem;
 }
 
+#recent-concerts .card {
+    height: 353px;
+}
+
 #recent-concerts h2 {
     margin-bottom: 2rem;
 }
@@ -276,7 +280,7 @@ hr {
 }
 
 .excerpt {
-    padding-top:56px;
+    padding-top: 56px;
 }
 
 .excerpt .text-center {
@@ -368,6 +372,11 @@ hr {
 /* Small sized screens (mobiles up, min width 576px) */
 @media screen and (min-width: 576px) {
 
+    /* Landmark Concerts Styles */
+    #recent-concerts .card {
+        height: 368px;
+    }
+
     /* Selected excerpts Styles */
     .excerpts-image {
         width: 75%;
@@ -400,6 +409,11 @@ hr {
     .review-box {
         width: 50%;
         flex-shrink: 0;
+    }
+
+    /* Landmark Concerts Styles */
+    #recent-concerts .card {
+        height: 348px;
     }
 
     /* Selected Excerpts Styles */
@@ -452,10 +466,10 @@ hr {
     }
 
     /* Landmark Concerts Styles */
-    #recent-concerts .top-row-card {
-        margin-bottom: 0px
+    #recent-concerts .card {
+        height: 353px;
     }
-    
+
     /* Selected Excerpts Styles */
     .excerpt .text-center {
         font-size: 1.5rem;
@@ -464,7 +478,7 @@ hr {
     /* Calendar Styles */
     #calendar .top-row-card {
         margin-bottom: 0px
-    }
+    }    
 }
 
 /* Extra Large sized screens (laptop up, min width 1200px) */
@@ -473,5 +487,10 @@ hr {
     /* Header Styles */
     #header .left-side {
         margin-bottom: 0;
+    }
+
+    /* Landmark Concerts Styles */
+    #recent-concerts .card {
+        height: 359px;
     }
 }
