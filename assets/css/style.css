@@ -18,12 +18,6 @@
 }
 
 /* Global Styles */
-.test-layout-2 {
-    border: 2px solid black;
-    background-color: aqua;
-    height: 25vh;
-}
-
 body {
     font-family: var(--secondary-font);
     background-color: var(--primary-background-color);
@@ -254,10 +248,47 @@ hr {
     padding-bottom: 2px;
 }
 
-/* Social Styles */
-.icons {
+/* Footer Styles */
+#footer {
+    margin-bottom: 2rem;
+}
+
+.footer-border {
+    border: 10px double var(--light-highlight);
+}
+
+#contact-us,
+#socials {
+    padding-left: auto;
+    padding-right: auto;
+}
+
+#contact-us p,
+#socials p {
+    font-size: 1.2rem;
+    margin-bottom: 0;
+}
+
+#contact-us a {
+    color: var(--primary-text-color);
+    text-decoration: none;
+    -webkit-transition: color 0.2s ease-in-out;
+    -o-transition: color 0.2s ease-in-out;
+    transition: color 0.2s ease-in-out;
+}
+
+#socials .icons {
     margin-right: 0.5rem;
-    font-size: x-large;
+    font-size: large;
+    color: var(--primary-text-color);
+    -webkit-transition: color 0.2s ease-in-out;
+    -o-transition: color 0.2s ease-in-out;
+    transition: color 0.2s ease-in-out;
+}
+
+#contact-us a:hover,
+#socials .icons:hover {
+    color: var(--highlight)
 }
 
 /* Selected Excerpts Styles */
@@ -478,7 +509,13 @@ hr {
     /* Calendar Styles */
     #calendar .top-row-card {
         margin-bottom: 0px
-    }    
+    }
+
+    /* Footer Styles */
+    .footer-border {
+        max-width: 65vw;
+        margin: auto;
+    }
 }
 
 /* Extra Large sized screens (laptop up, min width 1200px) */
