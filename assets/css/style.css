@@ -336,12 +336,21 @@ hr {
     border-radius: 0px;
 }
 
+#calendar .card {
+    height: 353px;
+}
+
 #calendar h2 {
     margin-bottom: 2rem;
 }
 
 #calendar hr {
     margin-bottom: 1.5rem;
+}
+
+#calendar img {
+    height: 50%;
+    object-fit: cover;
 }
 
 /* Booking Form Styles */
@@ -424,6 +433,11 @@ hr {
         padding: 0.7rem 0.7rem;
         font-size: 0.8rem;
     }
+
+    /* Calendar Styles */
+    #calendar .card {
+        height: 368px;
+    }
 }
 
 /* Medium sized screens (tablets up, min width 768px) */
@@ -475,6 +489,10 @@ hr {
         justify-content: space-between;
     }
 
+    /* Landmark Concerts Styles */
+    #Calendar .card {
+        height: 348px;
+    }
 }
 
 /* Large sized screens (Small laptop up, min width 992px) */
@@ -511,6 +529,10 @@ hr {
         margin-bottom: 0px
     }
 
+    #calendar .card {
+        height: 353px;
+    }
+
     /* Footer Styles */
     .footer-border {
         max-width: 65vw;
@@ -528,6 +550,11 @@ hr {
 
     /* Landmark Concerts Styles */
     #recent-concerts .card {
+        height: 359px;
+    }
+
+    /* Calendar Styles */
+    #calendar .card {
         height: 359px;
     }
 }
