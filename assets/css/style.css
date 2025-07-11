@@ -142,7 +142,7 @@ hr {
 }
 
 .header-image-fit {
-    max-height: 400px;
+    max-height: 340px;
     object-fit: cover;
 }
 
@@ -255,6 +255,8 @@ hr {
 
 .footer-border {
     border: 10px double var(--light-highlight);
+    max-width: 92vw;
+    margin: auto;
 }
 
 #contact-us,
@@ -289,6 +291,10 @@ hr {
 #contact-us a:hover,
 #socials .icons:hover {
     color: var(--highlight)
+}
+
+#contact-us i {
+    padding-right: 0.7rem;
 }
 
 /* Selected Excerpts Styles */
@@ -412,6 +418,11 @@ hr {
 /* Small sized screens (mobiles up, min width 576px) */
 @media screen and (min-width: 576px) {
 
+    /* Header Styles */
+    .header-image-fit {
+        max-height: 344px;
+    }
+
     /* Landmark Concerts Styles */
     #recent-concerts .card {
         height: 368px;
@@ -438,10 +449,21 @@ hr {
     #calendar .card {
         height: 368px;
     }
+
+    /*Footer Styles */
+    .footer-border {
+        max-width: auto;
+        margin: auto;
+    }
 }
 
 /* Medium sized screens (tablets up, min width 768px) */
 @media screen and (min-width: 768px) {
+
+    /* Header Styles */
+    .header-image-fit {
+        max-height: 400px;
+    }
 
     /* Services Styles */
     .services-box {
@@ -492,6 +514,17 @@ hr {
     /* Landmark Concerts Styles */
     #Calendar .card {
         height: 348px;
+    }
+
+    /*Footer Styles */
+    #socials .icons {
+        font-size: 1.4rem;
+        padding-top: 0.5rem;
+    }
+
+    .footer-border {
+        max-width: 78vw;
+        margin: auto;
     }
 }
 
