@@ -167,28 +167,28 @@ hr {
     background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../images/index-services-box-1-wedding.webp);
     background-position: center;
     background-size: cover;
-    gap: 4rem;
+    gap: 2rem;
 }
 
 .services-private {
     background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../images/index-services-box-2-private.webp);
     background-position: center;
     background-size: cover;
-    gap: 4rem;
+    gap: 2rem;
 }
 
 .services-public {
     background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../images/index-services-box-3-public.webp);
     background-position: center;
     background-size: cover;
-    gap: 4rem;
+    gap: 2rem;
 }
 
 .services-masterclass {
     background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../images/index-services-box-4-masterclass.webp);
     background-position: center;
     background-size: cover;
-    gap: 4rem;
+    gap: 2rem;
 }
 
 /* Reviews Styles */
