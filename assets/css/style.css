@@ -124,7 +124,6 @@ hr {
 }
 
 #navbar .nav-button-container {
-    align-self: left;
     margin-top: 1rem;
 }
 
@@ -257,12 +256,6 @@ hr {
     border: 10px double var(--light-highlight);
     max-width: 92vw;
     margin: auto;
-}
-
-#contact-us,
-#socials {
-    padding-left: auto;
-    padding-right: auto;
 }
 
 #contact-us p,
@@ -452,7 +445,6 @@ hr {
 
     /*Footer Styles */
     .footer-border {
-        max-width: auto;
         margin: auto;
     }
 }
