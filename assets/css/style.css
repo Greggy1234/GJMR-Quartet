@@ -190,6 +190,10 @@ hr {
     gap: 2rem;
 }
 
+.modal-header h3 {
+    color:var(--primary-text-color);
+}
+
 /* Reviews Styles */
 #reviews h2 {
     margin-bottom: 1rem;
