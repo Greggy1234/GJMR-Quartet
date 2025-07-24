@@ -141,7 +141,7 @@ hr {
 }
 
 .header-image-fit {
-    max-height: 340px;
+    max-height: 204px;
     object-fit: cover;
 }
 
@@ -514,7 +514,7 @@ hr {
 
     /*Footer Styles */
     #socials .icons {
-        font-size: 1.4rem;
+        font-size: 1.8rem;
         padding-top: 0.5rem;
     }
 
