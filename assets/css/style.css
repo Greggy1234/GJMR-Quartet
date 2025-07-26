@@ -38,7 +38,6 @@ h6 {
 
 hr {
     width: 60%;
-    display:flex;
     justify-self: center;
     opacity: 1;
     border: none;
